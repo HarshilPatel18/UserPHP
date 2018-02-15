@@ -1,0 +1,47 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="Success">
+        <!--<item name="textBold">true</item>-->
+        <item name="textColor">#fff</item>
+        <!--<item name="textFont">@font/dosier</item>-->
+        <item name="textSize">14sp</item>
+        <item name="colorBackground">@color/colorGreen</item>
+        <item name="solidBackground">true</item>
+        <item name="strokeWidth">3dp</item>     API 21+
+        <item name="strokeColor">#fff</item>    API 21+
+        <item name="iconLeft">@drawable/ic_action_name</item>
+        <item name="length">LONG</item>         ENUM: LONG | SHORT
+        <item name="cornerRadius">20dp</item>
+    </style>
+
+    <style name="Error">
+        <!--<item name="textBold">true</item>-->
+        <item name="textColor">#fff</item>
+        <!--<item name="textFont">@font/dosier</item>-->
+        <item name="textSize">14sp</item>
+        <item name="colorBackground">@color/colorRed</item>
+        <item name="solidBackground">true</item>
+        <item name="strokeWidth">3dp</item>     API 21+
+        <item name="strokeColor">#fff</item>    API 21+
+        <item name="iconLeft">@drawable/ic_action_error</item>
+        <item name="length">LONG</item>         ENUM: LONG | SHORT
+        <item name="cornerRadius">20dp</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:windowFullscreen">true</item>
+    </style>
+
+
+
+</resources>
